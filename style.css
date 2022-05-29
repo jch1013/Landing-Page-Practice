@@ -4,10 +4,12 @@ body {
 
 .hero-text {
     color: lightgrey;
-    background-color: rgb(32, 45, 78);
+    background-color: rgb(50, 50, 55);
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    padding-right: 120px;
+    padding-left: 120px;
 }
 .right-header a {
     text-decoration: none;
@@ -15,10 +17,10 @@ body {
 }
 .navy {
     display: flex;
-    background-color: rgb(32, 45, 78);
+    background-color: rgb(50, 50, 55);
     justify-content: center;
     gap: 20px;
-    height: 300px;
+    height: 315px;
     align-items: center;
 }
 .navy-left, .navy-right {
@@ -29,4 +31,46 @@ body {
 button {
     color:white;
     background-color: dodgerblue;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+.illustrations {
+    display: flex;
+    gap: 50px;
+}
+.pic {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    font-size: small;
+}
+
+.pic .image {
+    border: solid;
+    height: 100px;
+    border-color: dodgerblue;
+    border-radius: 10px;
+}
+.pic p {
+    text-align: center;
+}
+
+
+
+.quote {
+    background-color: rgb(240, 240, 240);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: .82cm;
 }
