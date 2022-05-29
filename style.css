@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+.hero-text {
+    color: lightgrey;
+    background-color: rgb(32, 45, 78);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.right-header a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+.navy {
+    display: flex;
+    background-color: rgb(32, 45, 78);
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+    align-items: center;
+}
+.navy-left, .navy-right {
+    width: 340px;
+    color: white;
+}
+
+button {
+    color:white;
+    background-color: dodgerblue;
+}
