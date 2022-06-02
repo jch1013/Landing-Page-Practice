@@ -4,7 +4,7 @@ body {
 
 .hero-text {
     color: lightgrey;
-    background-color: rgb(50, 50, 55);
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -17,15 +17,22 @@ body {
 }
 .navy {
     display: flex;
-    background-color: rgb(50, 50, 55);
+    background-color: #1F2937;
     justify-content: center;
     gap: 20px;
-    height: 315px;
+    height: 450px;
     align-items: center;
 }
 .navy-left, .navy-right {
     width: 340px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.navy-left h3 {
+    font-size: 48px;
     color: white;
+    margin-bottom: -15px;
 }
 
 button {
@@ -64,7 +71,7 @@ button {
 
 
 .quote {
-    background-color: rgb(240, 240, 240);
+    background-color: #E5E7EB;
     height: 350px;
     display: flex;
     flex-direction: column;
