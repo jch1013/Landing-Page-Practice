@@ -81,3 +81,15 @@ button {
     padding-right: 200px;
     font-size: .82cm;
 }
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+    color: white;
+}
